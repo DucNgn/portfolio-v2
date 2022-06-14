@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Python',
+    'PostgreSQL',
+    'MongoDB',
+    'Flask',
+    'FastAPI',
+    'TypeScript',
+    'React',
+    'Angular',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +144,35 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hi there! My name is Duc. I enjoy learning and building new things (whether that's
+              software or lego). My interest in programming started back in 2010 when I joined a
+              summer camp at school and learned to program in Pascal. It was intimidating at first
+              but it sparked a passion!
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              <a href="https://www.ericsson.com">a telecom corporation</a>,{' '}
+              <a href="http://cods.ai/">a cognitive research lab</a>,{' '}
+              <a href="https://drw.com">a trading firm</a>,{' '}
+              <a href="https://www.morganstanley.com/">an investment bank</a>, and{' '}
+              <a href="https://hackconcordia.io/">a student-led hackathon organization</a>. I also
+              was an open-source contributor for <a href="https://theia-ide.org/">theia-ide</a>.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Outside of work and school, I love helping folks in tech. In the past, I mentored at{' '}
+              <a href="https://www.concordia.ca/academics/co-op.html">CO-OP Institute</a>,{' '}
+              <a href="https://scsconcordia.com">SCS</a>,{' '}
+              <a href="https://hack.warwick.tech/">WarwickHACK</a>, and{' '}
+              <a href="https://stormhacks.com">StormHacks</a> to demystify tech industry and provide
+              technical expertise.
+            </p>
+
+            <p>
+              My main focus these days is building a high-performance, scalable, distributed web
+              crawling system at <a href="https://drw.com">DRW</a> to support low-latency trading
+              activities.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +187,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.HEIC"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
