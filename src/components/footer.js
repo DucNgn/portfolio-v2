@@ -83,7 +83,9 @@ const Footer = () => (
     </StyledSocialLinks>
 
     <StyledCredit tabindex="-1">
-      <div>Built by Duc Nguyen (inspired from Brittany Chiang)</div>
+      <a href="https://github.com/bchiang7/v4" target="_blank" rel="noreferrer">
+        <div>Adapted from from Brittany Chiang's Design on GitHub</div>
+      </a>
     </StyledCredit>
   </StyledFooter>
 );
