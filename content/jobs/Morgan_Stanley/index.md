@@ -4,7 +4,7 @@ title: 'Software Developer Intern'
 company: 'Morgan Stanley'
 location: 'Montreal, QC'
 range: 'January - April 2022'
-url: 'https://www.apple.com/music/'
+url: 'https://www.morganstanley.com'
 ---
 
 - Contributed features to Identity & Access Management data warehouse on a firm-wide level, using Java, Spring Boot.

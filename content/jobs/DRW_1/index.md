@@ -4,7 +4,7 @@ title: 'Software Developer Intern'
 company: 'DRW Trading'
 location: 'Montreal, QC'
 range: 'May - September 2017'
-url: 'https://www.apple.com/music/'
+url: 'https://drw.com'
 ---
 
 - Developed pipelines to notify algorithmic trading events and monitor sites of interest.
