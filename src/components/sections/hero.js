@@ -4,6 +4,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import Typed from 'react-typed';
 // import { email } from '@config';
 
 const StyledHeroSection = styled.section`
@@ -61,7 +62,26 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Duc.</h2>;
-  const three = <h3 className="big-heading">I build software.</h3>;
+  const three = (
+    <div>
+      <h3 className="big-heading">
+        Everyday, I{' '}
+        <Typed
+          loop
+          typeSpeed={100}
+          backSpeed={70}
+          strings={['sleep', 'eat', 'play', 'learn', 'code.']}
+          shuffle={false}
+          backDelay={400}
+          fadeOut={false}
+          fadeOutDelay={100}
+          loopCount={1}
+          showCursor
+          cursorChar="|"
+        />
+      </h3>
+    </div>
+  );
   const four = (
     <>
       <p>

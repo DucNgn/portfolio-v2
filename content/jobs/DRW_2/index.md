@@ -8,5 +8,5 @@ url: 'https://drw.com'
 ---
 
 - Working to provide web insights for algorithmic low-latency trading.
-- Building a system to crawl and auto-discover new web resources using Python with Scrapy, Flask, and PostgresSQL.
+- Building a distributed system to crawl and auto-discover new web resources.
 - Improving system resilience on network failures on a ZeroMQ-based concurrent application.

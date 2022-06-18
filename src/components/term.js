@@ -1,10 +1,14 @@
 /* eslint-disable jsx-a11y/no-autofocus */
 /* eslint-disable quotes */
+import React, { useState } from 'react';
 import Terminal from 'react-console-emulator';
 import commands from './commands/commands.js';
-import React from 'react';
+import { Loader } from '@components';
+import { ThemeProvider } from 'styled-components';
+import { GlobalStyle, TermStyle, theme } from '@styles';
 
 const Term = () => {
+  const [isLoading, setIsLoading] = useState(true);
   const initialPrompt = 'guest@/dnguyen:~$ ';
   const cmds = commands.commands;
   const owrs = commands.overwrites;
@@ -16,7 +20,7 @@ const Term = () => {
   });
 
   const getDog = async () => {
-    const res = await fetch('https://dog.ceo/api/breeds/image/random');
+    const res = await fetch('https://dog.ceo/api/breed/schnauzer/images/random');
     const resp = await res.json();
     return resp['message'];
   };
@@ -27,7 +31,7 @@ const Term = () => {
     return resp[0].url;
   };
 
-  return (
+  const terminalScreen = () => (
     <Terminal
       ref={terminal}
       className="container"
@@ -54,9 +58,9 @@ const Term = () => {
           usage: '',
           fn: async () => {
             const url = await getDog();
-            terminal.current.pushToStdout('Getting a gud boi just for you...\n---\n');
+            terminal.current.pushToStdout('Getting a gud Schnauzer boi, just for you...\n---\n');
             terminal.current.pushToStdout(
-              <img src={url} width="400px" height="380px" alt="gud-boi"></img>,
+              <img src={url} width="300px" height="auto" alt="gud-boi"></img>,
             );
           },
         },
@@ -67,7 +71,7 @@ const Term = () => {
             const url = await getCat();
             terminal.current.pushToStdout('Getting a cute cat just for you...\n---\n');
             terminal.current.pushToStdout(
-              <img src={url} width="400px" height="380px" alt="cute-kitty"></img>,
+              <img src={url} maxHeight="380px" width="auto" alt="cute-kitty"></img>,
             );
           },
         },
@@ -176,6 +180,16 @@ const Term = () => {
       scrollBehavior="auto"
       noDefaults
     />
+  );
+
+  return (
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <div className="term_body">
+        <TermStyle />
+        {isLoading ? <Loader finishLoading={() => setIsLoading(false)} /> : terminalScreen()};
+      </div>
+    </ThemeProvider>
   );
 };
 
