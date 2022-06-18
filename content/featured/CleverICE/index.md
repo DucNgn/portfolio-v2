@@ -3,7 +3,7 @@ date: '3'
 title: 'Clever ICE'
 cover: './demo.png'
 github: 'https://github.com/chelsieng/CleverICE'
-external: ''
+external: 'https://github.com/chelsieng/CleverICE'
 tech:
   - Flask
   - Google Cloud
