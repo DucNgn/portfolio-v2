@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'gatsby';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
@@ -87,7 +88,13 @@ const Hero = () => {
   );
   */
 
-  const items = [one, two, three, four];
+  const five = (
+    <Link className="email-link" to="/nerds">
+      Button for nerds
+    </Link>
+  );
+
+  const items = [one, two, three, four, five];
 
   return (
     <StyledHeroSection>
