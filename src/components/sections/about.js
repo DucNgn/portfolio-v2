@@ -36,7 +36,7 @@ const StyledText = styled.div`
       font-size: var(--fz-xs);
 
       &:before {
-        content: '▹';
+        content: '•';
         position: absolute;
         left: 0;
         color: var(--green);
@@ -153,7 +153,7 @@ const About = () => {
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://www.ericsson.com">a networking corporation</a>,{' '}
-              <a href="http://cods.ai/">a cognitive research lab</a>,{' '}
+              <a href="http://cods.ai/">a cognitive data research lab</a>,{' '}
               <a href="https://drw.com">a trading firm</a>,{' '}
               <a href="https://www.morganstanley.com/">an investment bank</a>, and{' '}
               <a href="https://hackconcordia.io/">a student-led hackathon organization</a>. I also
