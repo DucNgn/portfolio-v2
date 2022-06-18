@@ -44,14 +44,14 @@ const Term = () => {
       commands={{
         clear: {
           description: 'Clears the terminal',
-          usage: 'clear',
+          usage: '',
           fn: () => {
             terminal.current.clearStdout();
           },
         },
         dog: {
           description: 'Get a random gud boi',
-          usage: 'dog',
+          usage: '',
           fn: async () => {
             const url = await getDog();
             terminal.current.pushToStdout('Getting a gud boi just for you...\n---\n');
@@ -62,7 +62,7 @@ const Term = () => {
         },
         cat: {
           description: 'Get a random cat',
-          usage: 'cat',
+          usage: '',
           fn: async () => {
             const url = await getCat();
             terminal.current.pushToStdout('Getting a cute cat just for you...\n---\n');
@@ -79,7 +79,7 @@ const Term = () => {
               if (prompt === initialPrompt) {
                 return 'cannot go up';
               } else {
-                setPrompt(`${prompt.substring(0, prompt.lastIndexOf('/'))  }:~$ `);
+                setPrompt(`${prompt.substring(0, prompt.lastIndexOf('/'))}:~$ `);
                 sethome(
                   prompt.substring(
                     prompt.lastIndexOf('/', prompt.lastIndexOf('/') - 1) + 1,
@@ -93,7 +93,7 @@ const Term = () => {
               }
             } else {
               if (dir[home].includes(args[0])) {
-                setPrompt(`${`${prompt.slice(0, -4)  }/${  args.join('/')  }:~$ `}`);
+                setPrompt(`${`${prompt.slice(0, -4)}/${args.join('/')}:~$ `}`);
                 sethome(args.join('/'));
                 //console.log(prompt.slice(0, -4)+ "/" + args.join('/'))
                 return 'changed directory';
@@ -124,7 +124,6 @@ const Term = () => {
                 [home]: [...dir[home], args[0]],
                 [args[0]]: [],
               });
-              //console.log(dir)
               return `created directory ${args[0]}.`;
             } else {
               return 'invalid arguments';
