@@ -227,7 +227,6 @@ const GlobalStyle = createGlobalStyle`
     }
   }
 
-  img,
   svg,
   .gatsby-image-wrapper {
     width: 100%;

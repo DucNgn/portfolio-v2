@@ -36,13 +36,11 @@ const Term = () => {
       ref={terminal}
       className="container"
       welcomeMessage={[
-        'Hello nerds ◔ ⌣ ◔',
-        '---',
-        'Welcome to my website',
+        'Hello nerds ◔ ⌣ ◔ Welcome to my website',
         '---',
         "Type 'help' to see all available commands",
         '---',
-        "Try starting with 'dog' 🐶",
+        "Try command 'dog' 🐶",
         '---',
       ]}
       commands={{
@@ -54,13 +52,13 @@ const Term = () => {
           },
         },
         dog: {
-          description: 'Get a random gud boi',
+          description: 'Get a random gud Schnauzer boi',
           usage: '',
           fn: async () => {
             const url = await getDog();
             terminal.current.pushToStdout('Getting a gud Schnauzer boi, just for you...\n---\n');
             terminal.current.pushToStdout(
-              <img src={url} width="300px" height="auto" alt="gud-boi"></img>,
+              <img src={url} width={500} height={380} alt="gud-boi"></img>,
             );
           },
         },
@@ -71,7 +69,7 @@ const Term = () => {
             const url = await getCat();
             terminal.current.pushToStdout('Getting a cute cat just for you...\n---\n');
             terminal.current.pushToStdout(
-              <img src={url} width="300px" height="auto" alt="cute-kitty"></img>,
+              <img src={url} width={500} height={380} alt="cute-kitty"></img>,
             );
           },
         },
