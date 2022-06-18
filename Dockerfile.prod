@@ -1,0 +1,35 @@
+FROM debian:latest as build
+
+# replace shell with bash so we can source files
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+
+# update the repository sources list
+# and install dependencies
+RUN apt-get update \
+  && apt-get install -y curl \
+  && apt-get -y autoclean
+
+# nvm environment variables
+ENV NVM_DIR /usr/local/nvm
+ENV NODE_VERSION 4.4.7
+
+# install nvm
+# https://github.com/creationix/nvm#install-script
+RUN curl --silent -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | bash
+
+WORKDIR /app
+
+COPY .nvmrc ./
+RUN nvm install
+
+RUN npm install -g gatsby-cli
+COPY package*.json ./
+RUN yarn install
+
+COPY . ./
+RUN npm run build
+
+FROM nginx:stable-alpine
+COPY --from=build /app/public /usr/share/nginx/html
+CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 80
