@@ -71,7 +71,7 @@ const Term = () => {
             const url = await getCat();
             terminal.current.pushToStdout('Getting a cute cat just for you...\n---\n');
             terminal.current.pushToStdout(
-              <img src={url} maxHeight="380px" width="auto" alt="cute-kitty"></img>,
+              <img src={url} width="300px" height="auto" alt="cute-kitty"></img>,
             );
           },
         },
