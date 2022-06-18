@@ -176,6 +176,7 @@ const Jobs = () => {
             frontmatter {
               title
               company
+              display_company
               location
               range
               url
@@ -261,7 +262,8 @@ const Jobs = () => {
                   role="tab"
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
-                  aria-controls={`panel-${i}`}>
+                  aria-controls={`panel-${i}`}
+                >
                   <span>{company}</span>
                 </StyledTabButton>
               );
@@ -273,7 +275,7 @@ const Jobs = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, display_company, range } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -283,13 +285,14 @@ const Jobs = () => {
                     tabIndex={activeTabId === i ? '0' : '-1'}
                     aria-labelledby={`tab-${i}`}
                     aria-hidden={activeTabId !== i}
-                    hidden={activeTabId !== i}>
+                    hidden={activeTabId !== i}
+                  >
                     <h3>
                       <span>{title}</span>
                       <span className="company">
                         &nbsp;@&nbsp;
                         <a href={url} className="inline-link">
-                          {company}
+                          {display_company ? display_company : company}
                         </a>
                       </span>
                     </h3>

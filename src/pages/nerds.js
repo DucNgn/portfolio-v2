@@ -1,12 +1,6 @@
 import React from 'react';
 import { Term } from '@components';
-import { TermStyle } from '@styles';
 
-const NerdsPage = () => (
-  <div className="term_body">
-    <TermStyle />
-    <Term></Term>
-  </div>
-);
+const NerdsPage = () => <Term></Term>;
 
 export default NerdsPage;

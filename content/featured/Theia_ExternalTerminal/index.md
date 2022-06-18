@@ -11,6 +11,6 @@ tech:
   - NPM
 ---
 
-I authored @theia/external-terminal - a npm package that contributes the ability to spawn external terminals from the Electron version of Theia. The extension includes the logic to spawn appropriate terminal application for each operating system (Windows, Linux, OSX).
+I authored @theia/external-terminal - a npm package that contributes the ability to spawn external terminals from the Electron version of Theia.
 
-The extension has nearly 2000 downloads weekly.
+The extension has 2000+ downloads weekly.
