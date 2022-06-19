@@ -76,7 +76,7 @@ export default {
                     - Software Developer Intern @Morgan Stanley      | January 2022 - April 2022\n
                     - VP of Tech @HackConcordia                      | May 2021 - February 2022\n
                     - Software Developer Intern @DRW Trading         | May 2021 - August 2021\n
-                    - Research Assistant @Cognitive Data System Lab  | May 2021 - August 2021\n
+                    - Research Assistant @Cognitive Data Science Lab | May 2021 - August 2021\n
                     - Software Developer Intern @Ericsson            | September 2020 - April 2021\n
                 `;
       },
@@ -87,7 +87,7 @@ export default {
       fn: () => {
         return `
                     My Current Setup\n---\n
-                    Machine                 | OSX / Linux
+                    OS's                    | OSX / Linux 
                     Editor                  | LunarVim / Sometimes VSCode\n
                     Terminal Emulator       | Alacritty with Tmux\n
                     Shell                   | ZSH\n
