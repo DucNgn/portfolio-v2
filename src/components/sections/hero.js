@@ -70,7 +70,7 @@ const Hero = () => {
           loop
           typeSpeed={100}
           backSpeed={70}
-          strings={['sleep', 'eat', 'play', 'learn', 'code.']}
+          strings={['sleep', 'eat', 'learn', 'code.']}
           shuffle={false}
           backDelay={400}
           fadeOut={false}
