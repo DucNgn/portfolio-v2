@@ -45,7 +45,12 @@ export default {
     interests: {
       description: 'My interests',
       usage: '',
-      fn: () => 'My interests are:\n---\n- Algorithm Problems. I\'m a problem solver',
+      fn: () => `My interests are:\n---\n
+                - Algorithm & Data Structures         | I'm a problem solver at the core.
+                - Software Development Practices      | I believe good software practices save hours or even days of work.
+                - System Design & Architecture        | I'm fascinated by stuff like how Netflix scales their system for millions of users at the same time.
+                - Mentoring                           | I love helping folks in tech! In the past, I've met amazing people while mentoring at Hackathons and at school.
+                `,
     },
     tech: {
       description: 'Tech I worked with',
