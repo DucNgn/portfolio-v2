@@ -7,7 +7,6 @@ module.exports = {
       'Duc Nguyen is a software engineer who specializes in building back-end and distributed systems',
     siteUrl: 'https://ducnguyen.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
