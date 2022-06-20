@@ -2,8 +2,8 @@
 date: '2022-05-01'
 title: 'Software Developer Intern'
 company: 'DRW Trading'
-location: 'Cupertino, CA'
-range: 'May - September 2017'
+location: 'Montreal, QC'
+range: 'May - September 2022'
 url: 'https://drw.com'
 ---
 
