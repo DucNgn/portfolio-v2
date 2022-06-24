@@ -30,6 +30,12 @@ const StyledHeroSection = styled.section`
     }
   }
 
+  h2 {
+    margin-top: 10px;
+    color: var(--slate);
+    line-height: 0.9;
+  }
+
   h3 {
     margin-top: 10px;
     color: var(--slate);
