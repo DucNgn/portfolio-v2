@@ -9,4 +9,4 @@ url: 'https://drw.com'
 
 - Working to provide web insights for algorithmic low-latency trading.
 - Building a distributed system to crawl and auto-discover new web resources.
-- Improving system resilience on network failures on a ZeroMQ-based concurrent application.
+- Optimized database propagation with PostgresSQL and SQLAlchemy that saves data analysts hours of work every day.
