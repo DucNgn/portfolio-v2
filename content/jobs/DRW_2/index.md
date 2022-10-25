@@ -7,6 +7,7 @@ range: 'May - September 2022'
 url: 'https://drw.com'
 ---
 
-- Working to provide web insights for algorithmic low-latency trading.
-- Building a distributed system to crawl and auto-discover new web resources.
-- Optimized database propagation with PostgresSQL and SQLAlchemy that saves data analysts hours of work every day.
+- Collaborated directly with stakeholders to provide key web insights for algorithmic low-latency trading activities.
+- Designed and built a distributed system to discover more than 1 million websites with Scrapy, Flask, and PostgresSQL.
+- Reduced API response time by 90% with Redis caching, concurrent task processing, and multithreading.
+- Saved analysts 10+ hours of work by optimizing PostgresSQL database propagation for trading events.

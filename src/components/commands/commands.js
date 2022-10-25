@@ -40,7 +40,7 @@ export default {
       description: 'My main focus right now',
       usage: '',
       fn: () =>
-        'My main focuses right now:\n---\n- Build a distributed data crawling system as part of my internship at DRW\n- Enjoy nice Montreal summer\n- Learn GoLang (serious commitment this time)\n- Make more memes',
+        'My main focuses right now:\n---\n- Enjoy my last semester at Concordia\n- Learn GoLang (serious commitment this time)\n- Make more memes',
     },
     interests: {
       description: 'My interests',

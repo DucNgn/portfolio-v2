@@ -169,12 +169,6 @@ const About = () => {
               technical expertise.
             </p>
 
-            <p>
-              My main focus these days is building a high-performance, scalable, distributed web
-              crawling system at <a href="https://drw.com">DRW</a> to support low-latency trading
-              activities.
-            </p>
-
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 

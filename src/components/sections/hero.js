@@ -92,12 +92,7 @@ const Hero = () => {
     <>
       <p>
         I'm a passionate software / data engineer, specializing in building efficient back-end
-        system (and occasionally front-end). Currently, I'm focused on building a distributed data
-        crawling system as part of my internship at{' '}
-        <a href="https://DRW.com/" target="_blank" rel="noreferrer">
-          DRW Trading
-        </a>
-        .
+        system (and occasionally front-end).
       </p>
     </>
   );
