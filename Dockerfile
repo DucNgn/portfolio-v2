@@ -6,5 +6,6 @@ RUN npm install -g gatsby-cli
 COPY package*.json ./
 RUN yarn install
 COPY . ./
-CMD ["npm", "start"]
+RUN npm run build
+CMD ["npm", "run", "serve"]
 

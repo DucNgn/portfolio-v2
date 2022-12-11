@@ -1,5 +1,5 @@
 module.exports = {
-  email: 'duc.duke.ngn@gmail.com',
+  email: 'me@ducngn.com',
 
   socialMedia: [
     {
@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/ductringn',
+      url: 'https://www.linkedin.com/in/ducngn',
     },
   ],
 
@@ -24,6 +24,10 @@ module.exports = {
     {
       name: 'Projects',
       url: '/#projects',
+    },
+    {
+      name: 'Places',
+      url: '/#places',
     },
     {
       name: 'Contact',
