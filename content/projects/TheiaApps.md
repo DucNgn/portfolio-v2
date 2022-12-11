@@ -2,7 +2,7 @@
 date: '2020-09-01'
 title: 'Theia-Apps'
 github: 'https://github.com/theia-ide/theia-apps'
-external: 'https://github.com/theia-ide/theia-apps'
+external: ''
 tech:
   - Shell
   - Docker

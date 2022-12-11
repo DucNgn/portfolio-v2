@@ -2,7 +2,7 @@
 date: '2020-08-01'
 title: 'COVID 19 Detector via Chest CT Scan Images'
 github: 'https://github.com/DucNgn/COVID19-Detector'
-external: 'https://github.com/DucNgn/COVID19-Detector'
+external: ''
 tech:
   - Python
   - JavaScript

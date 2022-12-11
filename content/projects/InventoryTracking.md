@@ -2,7 +2,7 @@
 date: '2022-05-01'
 title: 'Inventory Tracking'
 github: 'https://github.com/DucNgn/inventory-tracking'
-external: 'https://www.inventoryapi.ducnguyen.dev/docs'
+external: ''
 tech:
   - Python
   - FastAPI

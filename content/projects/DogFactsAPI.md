@@ -2,7 +2,7 @@
 date: '2020-05-01'
 title: 'Dog Facts API'
 github: 'https://github.com/DucNgn/Dog-Facts-API-v2'
-external: 'https://www.dogfactsapi.ducnguyen.dev/docs'
+external: ''
 tech:
   - Python
   - Flask
