@@ -5,7 +5,7 @@ module.exports = {
     title: 'Duc Nguyen',
     description:
       'Duc Nguyen is a software engineer who specializes in building back-end and distributed systems',
-    siteUrl: 'https://www.ducnguyen.dev', // No trailing slash allowed!
+    siteUrl: 'https://www.ducngn.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },
   plugins: [
