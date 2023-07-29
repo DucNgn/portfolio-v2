@@ -91,8 +91,9 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a passionate software / data engineer, specializing in building efficient back-end
-        system (and occasionally front-end).
+        I'm a passionate software / data engineer, specializing in building efficient systems.
+        Currently, I'm focused on building exceptional data systems at{' '}
+        <a href="https://www.wealthsimple.com">Wealthsimple</a>
       </p>
     </>
   );

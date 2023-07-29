@@ -126,14 +126,15 @@ const About = () => {
   }, []);
 
   const skills = [
+    'Apache Airflow',
+    'Langchain',
+    'AWS Redshift',
     'Python',
     'PostgreSQL',
     'MongoDB',
-    'Flask',
     'FastAPI',
     'TypeScript',
     'React',
-    'Angular',
   ];
 
   return (
@@ -144,10 +145,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hi there! My name is Duc. I enjoy learning and building new things (whether that's
-              software or lego). My interest in programming started back in 2010 when I joined a
-              summer camp at school and learned to program in Pascal. It was intimidating at first
-              but it sparked a passion!
+              Hey there! I'm Duc (/duk/), and I'm all about the thrill of learning and creating new
+              things – whether it's crafting software or constructing awesome LEGO masterpieces. My
+              journey began back in 2010 when I joined a summer camp at school and dived into the
+              world of <a href="https://turbopascal.org">Turbo Pascal</a>. It was a bit overwhelming
+              at first, but that challenge ignited a spark of passion that still drives me today.
             </p>
 
             <p>
@@ -158,15 +160,8 @@ const About = () => {
               <a href="https://www.morganstanley.com/">an investment bank</a>, and{' '}
               <a href="https://hackconcordia.io/">a student-led hackathon organization</a>. I also
               was a contributor for <a href="https://theia-ide.org/">an open-source IDE</a>.
-            </p>
-
-            <p>
-              Outside of work and school, I love helping folks in tech. In the past, I mentored at{' '}
-              <a href="https://www.concordia.ca/academics/co-op.html">CO-OP Institute</a>,{' '}
-              <a href="https://scsconcordia.com">SCS</a>,{' '}
-              <a href="https://hack.warwick.tech/">WarwickHACK</a>, and{' '}
-              <a href="https://stormhacks.com">StormHacks</a> to demystify tech industry and provide
-              technical expertise.
+              Currently, I'm focused on building and maintaining the ML-Data platform that empowers{' '}
+              <a href="https://www.wealthsimple.com">Wealthsimple</a>'s core business to thrive.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
