@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'Eclipse Theia IDE'
 cover: './theia-ide.png'
 github: 'https://github.com/eclipse-theia/theia'

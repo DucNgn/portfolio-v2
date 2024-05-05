@@ -126,15 +126,14 @@ const About = () => {
   }, []);
 
   const skills = [
+    'Kubernetes',
+    'Google Vertex AI',
     'Apache Airflow',
-    'Langchain',
-    'AWS Redshift',
-    'Python',
-    'PostgreSQL',
-    'MongoDB',
-    'FastAPI',
-    'TypeScript',
-    'React',
+    'Meta Llama',
+    'MLFlow',
+    'LangChain',
+    'Amazon Redshift',
+    'Temporal',
   ];
 
   return (
@@ -145,23 +144,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hey there! I'm Duc (/duk/), and I'm all about the thrill of learning and creating new
-              things – whether it's crafting software or constructing awesome LEGO masterpieces. My
-              journey began back in 2010 when I joined a summer camp at school and dived into the
-              world of <a href="https://turbopascal.org">Turbo Pascal</a>. It was a bit overwhelming
-              at first, but that challenge ignited a spark of passion that still drives me today.
+              Hey there! I'm Duc (/duk/), a software engineer with a passion for building 🛠️ – from
+              crafting software to assembling LEGO sets. My journey began in 2010 at a school summer
+              camp where I first discovered <a href="https://turbopascal.org">Turbo Pascal</a>.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://www.ericsson.com">a networking corporation</a>,{' '}
+              Since then, and I’ve had the privilege of working at{' '}
+              <a href="https://www.ericsson.com">a networking corp</a>,{' '}
               <a href="http://cods.ai/">a research lab</a>,{' '}
-              <a href="https://drw.com">a trading firm</a>,{' '}
-              <a href="https://www.morganstanley.com/">an investment bank</a>, and{' '}
-              <a href="https://hackconcordia.io/">a student-led hackathon organization</a>. I also
-              was a contributor for <a href="https://theia-ide.org/">an open-source IDE</a>.
-              Currently, I'm focused on building and maintaining the ML-Data platform that empowers{' '}
-              <a href="https://www.wealthsimple.com">Wealthsimple</a>'s core business to thrive.
+              <a href="https://drw.com">a trading firm</a> , and{' '}
+              <a href="https://www.morganstanley.com/">an investment bank</a>. I was also a
+              contributor for <a href="https://theia-ide.org/">an open-source IDE</a>.
+            </p>
+
+            <p>
+              Currently, I'm focused on building and maintaining the Machine Learning Platform that
+              empowers <a href="https://www.wealthsimple.com">Wealthsimple</a>'s core business to
+              thrive.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

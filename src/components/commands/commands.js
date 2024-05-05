@@ -12,7 +12,7 @@ export default {
       description: 'About Me',
       usage: '',
       fn: () =>
-        'About Duc:\n---\n- Software / Data Engineer\n- Problem Solver\n- Software Internships count: 5\n- Dog Person 🐶',
+        'About Duc:\n---\n- Software / Platform Engineer\n- Problem Solver\n- Dog Person 🐶',
     },
     edu: {
       description: 'My education',
@@ -40,16 +40,16 @@ export default {
       description: 'My main focus right now',
       usage: '',
       fn: () =>
-        'My main focuses right now:\n---\n- Building exceptional data systems at Wealthsimple serious\n- Make more memes',
+        'My main focuses right now:\n---\n- Building exceptional ML systems at Wealthsimple\n- Make more memes\n- Kickboxing 🥊',
     },
     interests: {
       description: 'My interests',
       usage: '',
       fn: () => `My interests are:\n---\n
-                - Algorithm & Data Structures         | I'm a problem solver at the core.
-                - Software Development Practices      | I believe good software practices save hours or even days of work.
-                - System Design & Architecture        | I'm fascinated by stuff like how Netflix scales their system for millions of users at the same time.
-                - Chess                               | I'm trying to get better at chess.
+                - Algorithm & Data Structures          | I'm a problem solver at the core.
+                - System Design & Architecture         | I'm fascinated by stuff like how Netflix scales their system for millions of users at the same time.
+                - Chess 🏰🐴⛪️🤴🫅⛪🐴🏰                  | Trying to get better at chess.
+                - Kickboxing 🥊                         | Hitting the pads more often.
                 `,
     },
     tech: {
@@ -72,8 +72,8 @@ export default {
       fn: () => {
         return `
                     My Work experience.\n---\n
-                    - Software Developer @Wealthsiple (Data-ML)      | August 2023 - Currently\n
-                    - Software Developer Intern @Wealthsiple         | February 2023 - August 2023\n
+                    - Software Developer @Wealthsiple (ML Platform)  | August 2023 - Currently\n
+                    - Software Developer Intern @Wealthsiple         | February 2023 - August 2023\n
                     - Software Developer Intern @DRW Trading         | May 2022 - August 2022\n
                     - Software Developer Intern @Morgan Stanley      | January 2022 - April 2022\n
                     - VP of Tech @HackConcordia                      | May 2021 - February 2022\n

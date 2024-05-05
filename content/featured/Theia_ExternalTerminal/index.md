@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '3'
 title: '@theia/external-terminal'
 cover: './npm.png'
 github: 'https://github.com/eclipse-theia/theia/tree/master/packages/external-terminal'

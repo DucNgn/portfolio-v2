@@ -76,7 +76,7 @@ const Hero = () => {
           loop
           typeSpeed={100}
           backSpeed={70}
-          strings={['sleep', 'eat', 'learn', 'code.']}
+          strings={['sleep', 'eat', 'learn', 'build.']}
           shuffle={false}
           backDelay={400}
           fadeOut={false}
@@ -91,8 +91,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I'm a passionate software / data engineer, specializing in building efficient systems.
-        Currently, I'm focused on building exceptional data systems at{' '}
+        I'm a passionate software / platform engineer, specializing in building efficient systems.
+        Currently, I'm focused on building exceptional Machine Learning Platform at{' '}
         <a href="https://www.wealthsimple.com">Wealthsimple</a>
       </p>
     </>

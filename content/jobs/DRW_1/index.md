@@ -1,6 +1,6 @@
 ---
 date: '2021-05-02'
-title: 'Software Developer Intern'
+title: 'Software Engineer Intern'
 company: 'DRW Trading'
 location: 'Montreal, QC'
 range: 'May - September 2021'

@@ -1,6 +1,6 @@
 ---
 date: '2020-09-01'
-title: 'Software Developer Intern'
+title: 'Software Engineer Intern'
 company: 'Ericsson'
 location: 'Montreal, QC'
 range: 'September 2020 - April 2021'
