@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Duc Nguyen',
     description:
-      'Duc Nguyen is a software engineer who specializes in building back-end and distributed systems',
+      'Duc is a software engineer who specializes in building reliable and scalable systems',
     siteUrl: 'https://www.ducngn.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
   },

@@ -144,9 +144,9 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hey there! I'm Duc (/duk/), a software engineer with a passion for building 🛠️ – from
-              crafting software to assembling LEGO sets. My journey began in 2010 at a school summer
-              camp where I first discovered <a href="https://turbopascal.org">Turbo Pascal</a>.
+              Hey there! I'm Duc (/duk/), a software engineer with a passion for building 🛠️ My
+              journey began in 2010 at a school summer camp where I first discovered{' '}
+              <a href="https://turbopascal.org">Turbo Pascal</a>.
             </p>
 
             <p>
